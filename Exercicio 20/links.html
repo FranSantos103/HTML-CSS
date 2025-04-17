@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        body{font-family: 'Times New Roman', Times, serif; font-size: 20px;}
+
+        a{color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {color: blueviolet;}
+
+        a:hover{text-decoration: underline;
+            color: black;
+        
+        }
+
+        a:active{color: rgb(19, 0, 128);}
+
+        .especial::before{content: "→";
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(103, 171, 171);
+ 
+       
+    }
+
+        .especial::after{content: "←";
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(103, 171, 171);
+ 
+    
+    }
+
+    .especial {background-color: rgb(237, 175, 224);}
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/FranSantos103">Repositorio do Github</a></li>
+        <br>
+        <li><a href="https://www.youtube.com/" class = "especial">Youtube</a></li>
+        <br>
+        <li><a href="https://www.ghibli-museum.jp/en/">Site estudio Ghibli</a>
+        </li>
+ 
+
+
+    </ul>
+
+
+    
+</body>
+</html>
